@@ -1,5 +1,7 @@
+from colorama import Fore
+
 def main():
-    print("Hello!")
+    print(Fore.RED +  "Hello!")
 
 
 if __name__ == '__main__':
